@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRIGIDAIRES</title>
+</head>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/styles.css">
+<!-- https://www.youtube.com/watch?v=JL7Wo-ASah4 -->
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- <div class="container-fluid"> -->
+            <a class="navbar-brand" href="../index.html">
+              <img src="../img/frigidaires_logo.png" alt="Logo FRIGIDAIRES" width="40" height="34" class="d-inline-block align-text-top">
+              FrigidAires
+            </a>
+          <!-- </div> -->
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">         
+            <div class="navbar-nav me-auto ms-auto text-center">
+              <a class="nav-item nav-link" href="../index.html">Inicio</a>
+              <a class="nav-item nav-link" href="comenrcial.html">Comerciales</a>
+              <a class="nav-item nav-link" href="exhibidoras.html">Exhibidoras</a>
+              <a class="nav-item nav-link active" href="freezer.html">Freezers</a>
+              <a class="nav-item nav-link" href="frigorifica.html">Cámara Frigoríficas</a>
+            </div>
+            <div class="d-flex flex-row justify-content-around">
+              <a href="#" class="btn btn-outline-danger">Facebook</a>
+              <a href="#" class="btn btn-outline-primary">Instagran</a>
+            </div>
+          </div>
+        </nav>
+    </header>
+
+    <!-- Contruccion de la estructura del carrito -->
+    <div class="container">
+        <h3>Venta de freezers y equipos de refrigeración para cualquier necesidad en todo el país</h3>
+        <h1>FRIGIDAIRES distribuidor de Teora®</h1>
+        <img src="../img/logo_teora.png" alt="Logo de Teora ®" width="80" height="80" srcset="">
+        <hr>
+        <div class="row" id="cards"></div>
+    </div>
+
+    <!-- Estructura de las celdas de compras -->
+    <template id="template-card">
+        <div class="col-12 mb-2 col-md-4">
+            <div class="card text-center">
+                <div class="card-body">
+                    <img src="" alt="" class="card-img-top">
+                    <h5>Titulo</h5>
+                    <p>precios</p>
+                    <h6>Descripcion</h6>
+                    <button class="btn btn-dark">Contacto con proveedor</button>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="../js/compras_freezer.js"></script>
+</body>
+</html>

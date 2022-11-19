@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- <div class="container-fluid"> -->
+        <a class="navbar-brand" href="../index.html">
+          <img src="../img/frigidaires_logo.png" alt="Logo FRIGIDAIRES" width="40" height="34" class="d-inline-block align-text-top">
+          FrigidAires
+        </a>
+      <!-- </div> -->
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">         
+        <div class="navbar-nav me-auto ms-auto text-center">
+          <a class="nav-item nav-link" href="../index.html">Inicio</a>
+          <a class="nav-item nav-link" href="comenrcial.html">Comerciales</a>
+          <a class="nav-item nav-link" href="exhibidoras.html">Exhibidoras</a>
+          <a class="nav-item nav-link active" href="freezer.html">Freezers</a>
+          <a class="nav-item nav-link" href="frigorifica.html">Cámara Frigoríficas</a>
+        </div>
+        <div class="d-flex flex-row justify-content-around">
+          <a href="#" class="btn btn-outline-danger">Facebook</a>
+          <a href="#" class="btn btn-outline-primary">Instagran</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+<!--     https://www.youtube.com/watch?v=V79bslyDIT8
+    https://www.youtube.com/watch?v=qtH8PLuy1Ck -->
+    <main>
+        <form class="row g-3 needs-validation" novalidate action="https://formspree.io/f/xzbwwdaj" method="POST">
+            <div class="col-md-4 position-relative">
+              <label for="validationTooltip01" class="form-label">Nombre</label>
+              <input name="name" type="text" class="form-control" id="validationTooltip01" required>
+              <div class="valid-tooltip">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4 position-relative">
+              <label for="validationTooltip02" class="form-label">Apellido</label>
+              <input name="apellido" type="text" class="form-control" id="validationTooltip02" required>
+              <div class="valid-tooltip">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4 position-relative">
+              <label for="validationTooltipUsername" class="form-label">E-mail</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                <input name="email" type="email" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+                <div class="invalid-tooltip">
+                  Please choose a unique and valid username.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 position-relative">
+              <label for="validationTooltip03" class="form-label">Provincia</label>
+              <input name="provincia" type="text" class="form-control" id="validationTooltip03" required>
+              <div class="invalid-tooltip">
+                Please provide a valid city.
+              </div>
+            </div>
+            <div class="col-md-3 position-relative">
+              <label for="validationTooltip04" class="form-label">Partido</label>
+              <input name="partido" type="text" class="form-control" id="validationTooltip04" required>
+              
+              <div class="invalid-tooltip">
+                Please select a valid state.
+              </div>
+            </div>
+            <div class="form-floating">
+                <textarea name="mensaje" class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Comentarios</label>
+            </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Enviar</button>
+            </div>
+          </form>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="js/compras_inicio.js"></script>
+</body>
+</html>

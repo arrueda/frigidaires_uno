@@ -1,0 +1,65 @@
+[
+    {
+      "precio": 400,
+      "id": 1,
+      "title": "Gondola Lactea",
+      "descrip": "Características: -Puertas 3. Condesación Forzada. Exterior del gabinete Chapa prepintada blanca. Interior del gabinete. Chapa prepintada blanca. Aislación Poliuretano de 38kg/m³ de densidad",
+      "thumbnailUrl": "https://loremflickr.com/320/240?lock="
+    },
+    {
+      "precio": 200,
+      "id": 2,
+      "title": "Gondola Lactea",
+      "descrip": "Características: -Puertas 3. Condesación Forzada. Exterior del gabinete Chapa prepintada blanca. Interior del gabinete. Chapa prepintada blanca. Aislación Poliuretano de 38kg/m³ de densidad",
+      "thumbnailUrl": "https://loremflickr.com/320/240?lock="
+    },
+    {
+      "precio": 200,
+      "id": 3,
+      "title": "Gondola Lactea",
+      "descrip": "Características: -Puertas 3. Condesación Forzada. Exterior del gabinete Chapa prepintada blanca. Interior del gabinete. Chapa prepintada blanca. Aislación Poliuretano de 38kg/m³ de densidad",
+      "thumbnailUrl": "https://loremflickr.com/320/240?lock="
+    },
+    {
+      "precio": 550,
+      "id": 4,
+      "title": "Gondola Lactea",
+      "descrip": "Características: -Puertas 3. Condesación Forzada. Exterior del gabinete Chapa prepintada blanca. Interior del gabinete. Chapa prepintada blanca. Aislación Poliuretano de 38kg/m³ de densidad",
+      "thumbnailUrl": "https://loremflickr.com/320/240?lock="
+    },
+    {
+      "precio": 600,
+      "id": 5,
+      "title": "Gondola Lactea",
+      "descrip": "Características: -Puertas 3. Condesación Forzada. Exterior del gabinete Chapa prepintada blanca. Interior del gabinete. Chapa prepintada blanca. Aislación Poliuretano de 38kg/m³ de densidad",
+      "thumbnailUrl": "https://loremflickr.com/320/240?lock="
+    },
+    {
+      "precio": 700,
+      "id": 6,
+      "title": "Gondola Lactea",
+      "descrip": "Características: -Puertas 3. Condesación Forzada. Exterior del gabinete Chapa prepintada blanca. Interior del gabinete. Chapa prepintada blanca. Aislación Poliuretano de 38kg/m³ de densidad",
+      "thumbnailUrl": "https://loremflickr.com/320/240?lock="
+    },
+    {
+      "precio": 500,
+      "id": 7,
+      "title": "Gondola Lactea",
+      "descrip": "Características: -Puertas 3. Condesación Forzada. Exterior del gabinete Chapa prepintada blanca. Interior del gabinete. Chapa prepintada blanca. Aislación Poliuretano de 38kg/m³ de densidad",
+      "thumbnailUrl": "https://loremflickr.com/320/240?lock="
+    },
+    {
+      "precio": 400,
+      "id": 8,
+      "title": "Gondola Lactea",
+      "descrip": "Características: -Puertas 3. Condesación Forzada. Exterior del gabinete Chapa prepintada blanca. Interior del gabinete. Chapa prepintada blanca. Aislación Poliuretano de 38kg/m³ de densidad",
+      "thumbnailUrl": "https://loremflickr.com/320/240?lock="
+    },
+    {
+      "precio": 450,
+      "id": 9,
+      "title": "Gondola Lactea",
+      "descrip": "Características: -Puertas 3. Condesación Forzada. Exterior del gabinete Chapa prepintada blanca. Interior del gabinete. Chapa prepintada blanca. Aislación Poliuretano de 38kg/m³ de densidad",
+      "thumbnailUrl": "https://loremflickr.com/320/240?lock="
+    }
+]
